@@ -1,0 +1,22 @@
+{
+  "name": "jest-another-rpg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deadseal001/jest-another-RPG.git"
+  },
+  "author": "wenbo li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deadseal001/jest-another-RPG/issues"
+  },
+  "homepage": "https://github.com/deadseal001/jest-another-RPG#readme",
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
+}
