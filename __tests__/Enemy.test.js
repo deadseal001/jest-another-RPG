@@ -51,6 +51,8 @@ test("subtract from enemy's health", ()=>{
 test('gets a description of the enemy', () =>{
     const enemy = new Enemy('goblin', 'sword');
 
+    console.log(enemy);
+
     expect(enemy.getDescription()).toEqual(expect.stringContaining('goblin'));
     expect(enemy.getDescription()).toEqual(expect.stringContaining('sword'));
 });
