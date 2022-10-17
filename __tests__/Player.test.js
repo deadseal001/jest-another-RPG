@@ -78,7 +78,7 @@ test('creates a player object', ()=>{
     player.inventory = [new Potion(), new Potion(), new Potion()];
     const oldCount = player.inventory.length;
 
-    player.usePoint(1);
+    player.usePotion(1);
 
     expect(player.inventory.length).toBeLessThan(oldCount);
   })
